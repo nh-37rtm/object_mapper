@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "object_test"
+name = "object_mapping"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
-packages = [
-    { include = "src", from = "." },
-]
+# packages = [
+#     { include = "src", from = "." },
+# ]
 
 [tool.poetry.dependencies]
 python = "^3.11"
