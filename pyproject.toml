@@ -5,9 +5,9 @@ description = ""
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
-# packages = [
-#     { include = "src", from = "." },
-# ]
+packages = [
+    { include = "src", from = ".", to = "object_mapping" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"
